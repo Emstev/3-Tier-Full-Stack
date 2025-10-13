@@ -3,14 +3,14 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: yelp-camp-secrets
-type: Opaque
+type: secret
 data:
-  CLOUDINARY_CLOUD_NAME: dq5j8f4dr
-  CLOUDINARY_KEY: 537355536794143 
-  CLOUDINARY_SECRET: 07SgvizR_iKVmZ3dVH287mVqlH4
-  MAPBOX_TOKEN: sk.eyJ1IjoiZW1tYXN0ZXYiLCJhIjoiY21nOXFsNXMyMGNrNjJpcXRkcGZ5Y2d3NSJ9.k10tzWXkUAOoqqp6fglXPw
-  DB_URL: mongodb+srv://emmanuelstev_db_user:DaFiR8mevD9P3EDt@devops-proj.w2eee0u.mongodb.net/?retryWrites=true&w=majority&appName=Devops-proj
-  SECRET: devops
+  CLOUDINARY_CLOUD_NAME: ZHE1ajhmNGRy
+  CLOUDINARY_KEY: NTM3MzU1NTM2Nzk0MTQz 
+  CLOUDINARY_SECRET: MDdTZ3ZpekJfaUtWbVozeFZIMjg3bVZxbEg0
+  MAPBOX_TOKEN: cGs uZXlKMU lqb2l aV05tWlhO dFpYWXl MQ0po SWpv aVkybjlP WEU2Wl hBOU 1HeGx NVEptYzJ oc WR6Qn ZjbTVz Tmkjel5FVC1BRk JRV1Nk UXY4Rl9 VQT BmYnln
+  DB_URL: bW9uZ29kYitzcnY6Ly9lbW1hbnVlbHN0ZXZfZGJfdXNlcjo5cVVRRGFrYWZBUXJiTHNVQGRldm9wcy1wcm9qLnc yZWVlMHUubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUm dz1tYWpvcml0eSZhcHBOYW1lPURldm9wcy1wcm9q
+  SECRET: ZGV2b3Bz
 
 ---
 apiVersion: apps/v1
